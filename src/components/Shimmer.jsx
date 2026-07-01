@@ -9,7 +9,7 @@ function Shimmer() {
                 <span className="loader"></span>
                 <img className='size-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy.f_auto.q_auto/icecream_wwomsa" alt="" />
             </div>
-            <h1 className='text-[27px] text-gray-300'>Looking for great food near you ...</h1>
+            <h1 className='px-4 text-center text-[18px] leading-tight text-gray-300 sm:text-[24px] md:text-[27px]'>Looking for great food near you ...</h1>
         </div>
         <div className='w-[80%] mx-auto flex flex-wrap gap-10 items-center justify-center py-10'>
             {Array(18).fill("").map((data, index) => (
