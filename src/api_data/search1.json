@@ -1,0 +1,266 @@
+{
+  "statusCode": 0,
+  "data": [
+    {
+      "description": "Mumbai, Maharashtra, India",
+      "place_id": "ChIJwe1EZjDG5zsRaYxkjY_tpF0",
+      "types": [
+        "locality",
+        "political",
+        "geocode"
+      ],
+      "matched_substrings": [
+        {
+          "length": 6,
+          "offset": 0
+        }
+      ],
+      "terms": [
+        {
+          "value": "Mumbai",
+          "offset": 0
+        },
+        {
+          "value": "Maharashtra",
+          "offset": 8
+        },
+        {
+          "value": "India",
+          "offset": 21
+        }
+      ]
+    },
+    {
+        "description": "Mumbai Central, Mumbai, Maharashtra, India",
+        "place_id": "ChIJN36xow705zsR4_xLO7GOGf4",
+        "types": [
+            "sublocality_level_1",
+            "sublocality",
+            "political",
+            "geocode"
+        ],
+        "matched_substrings": [
+            {
+            "length": 6,
+            "offset": 0
+            }
+        ],
+        "terms": [
+            {
+            "value": "Mumbai Central",
+            "offset": 0
+            },
+            {
+            "value": "Mumbai",
+            "offset": 16
+            },
+            {
+            "value": "Maharashtra",
+            "offset": 24
+            },
+            {
+            "value": "India",
+            "offset": 37
+            }
+        ]
+    },
+    {   
+        "description": "Mumbai Airport Lounge - Adani Lounge, छत्रपति शिवाजी अंतर्राष्ट्रीय हवाईअड्डा क्षेत्र, Bandra Terminus, Vile Parle East, Vile Parle, Mumbai, Maharashtra, India",
+        "place_id": "ChIJG6-PlCTJ5zsRbL89yxViF10",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "matched_substrings": [
+            {
+            "length": 6,
+            "offset": 0
+            }
+        ],
+        "terms": [
+            {
+            "value": "Mumbai Airport Lounge - Adani Lounge",
+            "offset": 0
+            },
+            {
+            "value": "छत्रपति शिवाजी अंतर्राष्ट्रीय हवाईअड्डा क्षेत्र",
+            "offset": 38
+            },
+            {
+            "value": "Bandra Terminus",
+            "offset": 87
+            },
+            {
+            "value": "Vile Parle East",
+            "offset": 104
+            }
+        ]
+    },
+    {
+        "description": "Mumbai Central Railway Station Building, Mumbai Central, Mumbai, Maharashtra, India",
+        "place_id": "ChIJkMgHLmz05zsRHZycUhZAmVQ",
+        "types": [
+            "premise",
+            "geocode"
+        ],
+        "matched_substrings": [
+            {
+            "length": 6,
+            "offset": 0
+            }
+        ],
+        "terms": [
+            {
+            "value": "Mumbai Central Railway Station Building",
+            "offset": 0
+            },
+            {
+            "value": "Mumbai Central",
+            "offset": 41
+            },
+            {
+            "value": "Mumbai",
+            "offset": 57
+            },
+            {
+            "value": "Maharashtra",
+            "offset": 65
+            }
+        ]
+    },
+    {
+      "description": "Delhi, India",
+      "place_id": "ChIJLbZ-NfV9DDkRQJY4FbcFcgM",
+      "types": ["locality", "political", "geocode"],
+      "matched_substrings": [{"length": 5, "offset": 0}],
+      "terms": [
+        {"value": "Delhi", "offset": 0},
+        {"value": "India", "offset": 6}
+      ]
+    },
+    {
+      "description": "Delhi Airport, Airport, New Delhi, Delhi, India",
+      "place_id": "ChIJ1yy3GgdDTkRHkyZ-6iJG0oo",
+      "types": ["airport", "point_of_interest", "establishment"],
+      "matched_substrings": [{"length": 5, "offset": 0}],
+      "terms": [
+        {"value": "Delhi Airport", "offset": 0},
+        {"value": "Airport", "offset": 14},
+        {"value": "New Delhi", "offset": 23},
+        {"value": "Delhi", "offset": 34},
+        {"value": "India", "offset": 41}
+      ]
+    },
+    {
+      "description": "Delhi Cantt. Railway Station, Jail Road, Nangal Village, Delhi Cantonment, New Delhi, Delhi, India",
+      "place_id": "ChIJzaHEuEcDDTkRqFK1sbqsCb0",
+      "types": ["train_station", "transit_station", "establishment"],
+      "matched_substrings": [{"length": 5, "offset": 0}],
+      "terms": [
+        {"value": "Delhi Cantt. Railway Station", "offset": 0},
+        {"value": "Jail Road", "offset": 29},
+        {"value": "Nangal Village", "offset": 40},
+        {"value": "Delhi Cantonment", "offset": 55},
+        {"value": "New Delhi", "offset": 73},
+        {"value": "Delhi", "offset": 84},
+        {"value": "India", "offset": 91}
+      ]
+    },
+    {
+      "description": "Delhi - Mumbai Expressway, Gujarat, India",
+      "place_id": "EiI2EWxoaSAtIE11bWJhaSBFhByZXNzd2F5LCBhdWphcmF0LCBJbmRpYSIuKiWkFAoSCX1_hMlWOeA7EXwgFL-Pxd1sEhQKEgmV9w5FHwVZOREuUlTh9gbhg",
+      "types": ["route", "geocode"],
+      "matched_substrings": [{"length": 5, "offset": 0}],
+      "terms": [
+        {"value": "Delhi - Mumbai Expressway", "offset": 0},
+        {"value": "Gujarat", "offset": 27},
+        {"value": "India", "offset": 36}
+      ]
+    },
+    {
+      "description": "Delhi Sarai Rohilla Railway Station, Guru Gobind Singh Marg, Railway Officers Colony, Sarai Rohilla, New Delhi, Delhi, India",
+      "place_id": "ChIJw2ez_4YCDTkR-Fg37DgWwyw",
+      "types": ["train_station", "transit_station", "establishment"],
+      "matched_substrings": [{"length": 5, "offset": 0}],
+      "terms": [
+        {"value": "Delhi Sarai Rohilla Railway Station", "offset": 0},
+        {"value": "Guru Gobind Singh Marg", "offset": 37},
+        {"value": "Railway Officers Colony", "offset": 61},
+        {"value": "Sarai Rohilla", "offset": 86},
+        {"value": "New Delhi", "offset": 101},
+        {"value": "Delhi", "offset": 112},
+        {"value": "India", "offset": 119}
+      ]
+    },
+    {
+      "description": "Gurugram, Haryana, India",
+      "place_id": "ChIJWYjjgTUZDTkRHkVG5ehfzwI",
+      "types": [
+        "locality",
+        "political",
+        "geocode"
+      ],
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "terms": [
+        {
+          "value": "Gurugram",
+          "offset": 0
+        },
+        {
+          "value": "Haryana",
+          "offset": 10
+        },
+        {
+          "value": "India",
+          "offset": 19
+        }
+      ]
+    },
+    {
+      "description": "Gurudwara Sri Bangla Sahib, Hanuman Road Area, Connaught Place, New Delhi, Delhi, India",
+      "place_id": "ChIJLX3AzJ79DDkRO46OG-dEsG0",
+      "types": [
+        "place_of_worship",
+        "point_of_interest",
+        "establishment"
+      ],
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "terms": [
+        {
+          "value": "Gurudwara Sri Bangla Sahib",
+          "offset": 0
+        },
+        {
+          "value": "Hanuman Road Area",
+          "offset": 28
+        },
+        {
+          "value": "Connaught Place",
+          "offset": 47
+        },
+        {
+          "value": "New Delhi",
+          "offset": 64
+        },
+        {
+          "value": "Delhi",
+          "offset": 75
+        },
+        {
+          "value": "India",
+          "offset": 82
+        }
+      ]
+    }
+  ]
+}

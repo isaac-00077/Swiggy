@@ -1,0 +1,195 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    background-color: #EBEBEB;
+    border: 2px solid #000;
+}
+.active i{
+    display: block;
+}
+
+@keyframes toast-drop-in {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -120px, 0) scale(0.98);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+}
+
+@keyframes toast-drop-out {
+    from {
+        opacity: 1;
+        transform: translate3d(0, 0, 0) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translate3d(0, -80px, 0) scale(0.98);
+    }
+}
+
+.toast-drop-in {
+    animation: toast-drop-in 420ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.toast-drop-out {
+    animation: toast-drop-out 220ms ease-in both;
+}
+.loader {
+  --color-1: #d1d5db;
+  --size: 1.5px;
+  width: calc(48 * var(--size));
+  height: calc(48 * var(--size));
+  border: calc(5 * var(--size)) solid var(--color-1);
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  padding:2rem;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.loader1 {
+  --color-1: rgba(249, 249, 249, 0.5);
+  --color-2: #f0eded;
+  --size: 1px;
+
+  width: calc(300 * var(--size));
+  height: calc(220 * var(--size));
+  display: block;
+  background-image:
+    linear-gradient(100deg, transparent, var(--color-1) 50%, transparent 80%),
+    linear-gradient(var(--color-2), var(--color-2)),
+    radial-gradient(
+      circle calc(20 * var(--size)) at calc(150 * var(--size)) calc(70 * var(--size)),
+      var(--color-1) 99%,
+      transparent 0
+    ),
+    linear-gradient(var(--color-2) calc(16 * var(--size)), transparent 0),
+    linear-gradient(var(--color-2) calc(12 * var(--size)), transparent 0);
+  background-repeat: no-repeat;
+  background-size:
+    calc(80 * var(--size)) calc(220 * var(--size)),
+    calc(300 * var(--size)) calc(140 * var(--size)),
+    calc(300 * var(--size)) calc(140 * var(--size)),
+    calc(220 * var(--size)) calc(16 * var(--size)),
+    calc(160 * var(--size)) calc(12 * var(--size));
+  background-position:
+    -50% 0,
+    0 0,
+    0 0,
+    0 calc(160 * var(--size)),
+    0 calc(190 * var(--size));
+  box-sizing: border-box;
+  animation: animloader 1.4s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+    background-position:
+      0% 0,
+      0 0,
+      0 0,
+      0 calc(160 * var(--size)),
+      0 calc(190 * var(--size));
+  }
+  100% {
+    background-position:
+      120% 0,
+      0 0,
+      0 0,
+      0 calc(160 * var(--size)),
+      0 calc(190 * var(--size));
+  }
+}
+
+.animate {
+    animation-name: shimmer;
+    background-image: linear-gradient(to right, #eeeeee, #fcfcfc, #fafafa, #f7f7f7, #f5f5f5aa, #f4f4f4, #f0f0f0, #ededed, #efefef, #e5e5e5, #efefef, #f1f1f1);
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shimmer {
+    from {
+        background-position: -1000px 0;
+    }
+
+    to {
+        /* background-color:; */
+        background-position: 1000px 0;
+    }
+}
+
+
+.loader3 {
+  --color-1: rgba(227, 227, 227, 0.5);
+  --color-2: #fff;
+  --size: 1px;
+
+  width: calc(360 * var(--size));
+  height: calc(100 * var(--size));
+  display: block;
+  background-image:
+    linear-gradient(100deg, transparent, var(--color-1) 50%, transparent 80%),
+    linear-gradient(var(--color-2) calc(100 * var(--size)), transparent 0),
+    linear-gradient(var(--color-2) calc(20 * var(--size)), transparent 0),
+    linear-gradient(var(--color-2) calc(20 * var(--size)), transparent 0),
+    linear-gradient(var(--color-2) calc(20 * var(--size)), transparent 0);
+  background-repeat: no-repeat;
+  background-size:
+    calc(75 * var(--size)) calc(100 * var(--size)),
+    calc(100 * var(--size)) calc(100 * var(--size)),
+    calc(125 * var(--size)) calc(20 * var(--size)),
+    calc(260 * var(--size)) calc(20 * var(--size)),
+    calc(260 * var(--size)) calc(20 * var(--size));
+  background-position:
+    -50% 0,
+    0 0,
+    calc(120 * var(--size)) 0,
+    calc(120 * var(--size)) calc(40 * var(--size)),
+    calc(120 * var(--size)) calc(80 * var(--size)),
+    calc(120 * var(--size)) calc(120 * var(--size));
+  box-sizing: border-box;
+  animation: animloader 1s linear infinite;
+}
+
+@keyframes animloader {
+  0% {
+    background-position:
+      0% 0,
+      0 0,
+      calc(120 * var(--size)) 0,
+      calc(120 * var(--size)) calc(40 * var(--size)),
+      calc(120 * var(--size)) calc(80 * var(--size)),
+      calc(120 * var(--size)) calc(120 * var(--size));
+  }
+  100% {
+    background-position:
+      100% 0,
+      0 0,
+      calc(120 * var(--size)) 0,
+      calc(120 * var(--size)) calc(40 * var(--size)),
+      calc(120 * var(--size)) calc(80 * var(--size)),
+      calc(120 * var(--size)) calc(120 * var(--size));
+  }
+}
+
+
+

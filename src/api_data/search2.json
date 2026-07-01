@@ -1,0 +1,125 @@
+{
+  "statusCode": 0,
+  "data": [
+    {
+      "formatted_address": "Mumbai, Maharashtra, India",
+      "place_id": "ChIJwe1EZjDG5zsRaYxkjY_tpF0",
+      "geometry": {
+        "location": {
+          "lat": 19.0759837,
+          "lng": 72.8776559
+        }
+      }
+    },
+    {
+      "formatted_address": "Mumbai Central, Mumbai, Maharashtra, India",
+      "place_id": "ChIJN36xow705zsR4_xLO7GOGf4",
+      "geometry": {
+        "location": {
+          "lat": 19.0759837,
+          "lng": 72.8776559
+        }
+      }
+    },
+    {
+      "formatted_address": "Mumbai Airport Lounge - Adani Lounge, छत्रपति शिवाजी अंतर्राष्ट्रीय हवाईअड्डा क्षेत्र, Bandra Terminus, Vile Parle East, Vile Parle, Mumbai, Maharashtra, India",
+      "place_id": "ChIJG6-PlCTJ5zsRbL89yxViF10",
+      "geometry": {
+        "location": {
+          "lat": 19.0759837,
+          "lng": 72.8776559
+        }
+      }
+    },
+    {
+      "formatted_address": "Mumbai Central Railway Station Building, Mumbai Central, Mumbai, Maharashtra, India",
+      "place_id": "ChIJkMgHLmz05zsRHZycUhZAmVQ",
+      "geometry": {
+        "location": {
+          "lat": 19.9999,
+          "lng": 72.9999
+        }
+      }
+    },
+    {
+      "formatted_address": "Delhi, India",
+      "place_id": "ChIJLbZ-NfV9DDkRQJY4FbcFcgM",
+      "geometry": {
+        "location": {
+          "lat": 28.6139,
+          "lng": 77.2090
+        }
+      }
+    },
+    {
+      "formatted_address": "Delhi Airport, Airport, New Delhi, Delhi, India",
+      "place_id": "ChIJ1yy3GgdDTkRHkyZ-6iJG0oo",
+      "geometry": {
+        "location": {
+          "lat": 28.6139,
+          "lng": 77.2090
+        }
+      }
+    },
+    {
+      "formatted_address": "Delhi - Mumbai Expressway, Gujarat, India",
+      "place_id": "EiI2EWxoaSAtIE11bWJhaSBFhByZXNzd2F5LCBhdWphcmF0LCBJbmRpYSIuKiWkFAoSCX1_hMlWOeA7EXwgFL-Pxd1sEhQKEgmV9w5FHwVZOREuUlTh9gbhg",
+      "geometry": {
+        "location": {
+          "lat": 28.6139,
+          "lng": 77.2090
+        }
+      }
+    },
+    {
+        "formatted_address": "Delhi Airport, New Delhi, Delhi, India",
+        "place_id": "ChIJIyy3GgdDTkRHkyZ-6iJG0oo",
+        "geometry": {
+          "location": {
+            "lat": 28.5625788,
+            "lng": 77.118892
+        }
+      }
+    },
+    {
+      "formatted_address": "Delhi Cantt. Railway Station, Delhi, India",
+      "place_id": "ChIJzaHEuEcDDTkRqFK1sbqsCb0",
+      "geometry": {
+        "location": {
+          "lat": 28.6105073,
+          "lng": 77.1145653
+        }
+      }
+    },
+    {
+      "formatted_address": "Delhi Sarai Rohilla Railway Station, Delhi, India",
+      "place_id": "ChIJw2ez_4YCDTkR-Fg37DgWwyw",
+      "geometry": {
+        "location": {
+          "lat": 28.6633025,
+          "lng": 77.1860118
+        }
+      }
+    },
+    {
+      "formatted_address": "Gurugram, Haryana, India",
+      "place_id": "ChIJWYjjgTUZDTkRHkVG5ehfzwI",
+      "geometry": {
+        "location": {
+          "lat": 28.4594965,
+          "lng": 77.0266383
+        }
+      }
+    },
+    {
+      "formatted_address": "Gurudwara Sri Bangla Sahib, New Delhi, Delhi, India",
+      "place_id": "ChIJLX3AzJ79DDkRO46OG-dEsG0",
+      "geometry": {
+        "location": {
+          "lat": 28.6258652,
+          "lng": 77.20895180000001
+        }
+      }
+    }
+  ]
+}

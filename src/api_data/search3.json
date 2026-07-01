@@ -1,0 +1,390 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.Label",
+            "text": "Item added to cart",
+            "textColor": "#282c3f",
+            "fontSize": 15,
+            "fontName": "FONT_NAME_SEMI_BOLD",
+            "alignment": "ALIGNMENT_LEFT",
+            "lineSpacing": 2,
+            "margin": {
+              "top": 8
+            },
+            "padding": {
+              "left": 16,
+              "top": 15,
+              "right": 16,
+              "bottom": 15
+            },
+            "containerBackgroundColor": "#f2f3f7",
+            "backgroundColor": "#f2f3f7",
+            "maxLines": 2
+          }
+        }
+      },
+      {
+        "card": {
+            "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+            "info": {
+                "id": "56759621",
+                "name": "Kadai Paneer",
+                "category": "Main Course",
+                "description": "A perfectly balanced dish with juicy paneer pieces cooked with onions, tomatoes, freshly ground whole spice mix and simmered to a thick consistency.",
+                "imageId": "kyrxscdstb1mijxvntzn",
+                "inStock": 1,
+                "isVeg": 1,
+                "price": 14400,
+
+                "variants": {
+                "variantGroups": [
+                    {
+                    "groupId": "7407846",
+                    "name": "Quantity",
+                    "variations": [
+                        {
+                        "name": "Half",
+                        "default": 1,
+                        "id": "24912992",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "isEnabled": 1
+                        },
+                        {
+                        "name": "Full",
+                        "price": 11600,
+                        "id": "24912993",
+                        "inStock": 1,
+                        "isVeg": 1,
+                        "isEnabled": 1
+                        }
+                    ]
+                    }
+                ]
+                },
+
+                "variantsV2": {
+                "maxAddons": -1,
+                "maxFreeAddons": -1
+                },
+
+                "ribbon": {
+                "text": "BESTSELLER",
+                "textColor": "#ffffff",
+                "topBackgroundColor": "#d53d4c",
+                "bottomBackgroundColor": "#b02331"
+                },
+
+                "itemBadge": {},
+
+                "badgesV2": {},
+
+                "ratings": {
+                "aggregatedRating": {
+                    "rating": "4.0",
+                    "ratingCount": "545 ratings",
+                    "ratingCountV2": "545"
+                }
+                },
+
+                "analytics": {
+                "screenName": "explore-dish-widget",
+                "context": "{\"tid\":null,\"grid\":\"91eb268d-5e66-4de1-83f2-121445439de5\",\"queryUniqueId\":\"\",\"query\":\"panner\"}",
+                "objectValue": "56759621",
+                "clickObjectName": "click-item"
+                }
+
+                
+            },
+            "restaurant": {
+                "info": {
+                    "id": "293707",
+                    "name": "Rajesh Food Point",
+                    "city": "4",
+
+                    "slugs": {
+                    "restaurant": "rajesh-food-point-uttam-nagar-uttam-nagar",
+                    "city": "delhi"
+                    },
+
+                    "cloudinaryImageId": "vyypeexkhmllh7bqtb40",
+
+                    "address": "B-4, SYNDICATE ENCLAVE DABRI MORE MAIN PANKHA ROAD Locality & Area: NEAR WORLD BRAIN HOSPITAL City: NEW DELHI",
+
+                    "locality": "Janakpuri",
+                    "areaName": "Janakpuri",
+
+                    "costForTwo": "20000",
+                    "costForTwoMessage": "₹200 FOR TWO",
+
+                    "cuisines": [
+                    "Indian",
+                    "Punjabi",
+                    "North Indian"
+                    ],
+
+                    "avgRating": 4.2,
+
+                    "feeDetails": {},
+
+                    "avgRatingString": "4.2",
+
+                    "sla": {
+                    "deliveryTime": 30,
+                    "minDeliveryTime": 25,
+                    "maxDeliveryTime": 30,
+                    "lastMileTravel": 4.4,
+                    "serviceability": "SERVICEABLE",
+                    "rainMode": "RAIN_MODE_LIGHT",
+                    "slaString": "25-30 MINS",
+                    "lastMileTravelString": "4.4 km",
+                    "iconType": "ICON_TYPE_EMPTY"
+                    },
+
+                    "availability": {
+                    "opened": true,
+                    "restaurantClosedMeta": {}
+                    },
+
+                    "badges": {
+                    "imageBadges": [
+                        {
+                        "imageId": "v1695133679/badges/Pure_Veg111.png",
+                        "description": "pureveg"
+                        }
+                    ]
+                    },
+
+                    "aggregatedDiscountInfoV3": {
+                    "header": "30% OFF",
+                    "subHeader": "UPTO ₹70"
+                    },
+
+                    "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+
+                    "cartOrderabilityNudgeBanner": {
+                    "parameters": {}
+                    },
+
+                    "presentation": {}
+                }
+             }
+            }
+        }
+      },
+      {
+        "card": {
+            "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.Collection",
+            "title": "More dishes from this restaurant",
+            "cards": [
+                {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                    "id": "56759636",
+                    "name": "Paneer Do Pyaza",
+                    "category": "Main Course",
+                    "description": "A rich, creamy curry of soft succulent paneer, plenty of onions and lots of spices, herbs and tomatoes.",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/16/3a2073d1-c856-4f94-b04d-21c3b65461a1_f733f515-728b-496a-87e3-f90bdb91ebc7.JPG",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 16800,
+
+                    "variants": {
+                        "variantGroups": [
+                        {
+                            "groupId": "7407855",
+                            "name": "Quantity",
+                            "variations": [
+                            {
+                                "name": "Half",
+                                "default": 1,
+                                "id": "24913010",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            },
+                            {
+                                "name": "Full",
+                                "price": 14400,
+                                "id": "24913011",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                            ]
+                        }
+                        ]
+                    },
+
+                    "variantsV2": {
+                        "maxAddons": -1,
+                        "maxFreeAddons": -1
+                    },
+
+                    "ribbon": {
+                        "text": "BESTSELLER",
+                        "textColor": "#ffffff",
+                        "topBackgroundColor": "#d53d4c",
+                        "bottomBackgroundColor": "#b02331"
+                    },
+
+                    "itemBadge": {},
+
+                    "badgesV2": {},
+
+                    "ratings": {
+                        "aggregatedRating": {
+                        "rating": "4.2",
+                        "ratingCount": "64 ratings",
+                        "ratingCountV2": "64"
+                        }
+                    },
+
+                    "analytics": {
+                        "screenName": "explore-dish-widget",
+                        "context": "{\"tid\":null,\"grid\":\"91eb268d-5e66-4de1-83f2-121445439de5\",\"queryUniqueId\":\"\",\"query\":\"panner\"}",
+                        "objectValue": "56759636",
+                        "clickObjectName": "click-item"
+                    }
+                    },
+                    "hideRestaurantDetails": true
+                }
+                },
+                {
+                "card": {
+                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                    "info": {
+                    "id": "56759627",
+                    "name": "Mutter Paneer",
+                    "category": "Main Course",
+                    "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/6/8/521f0838-aa5c-497a-9541-98995e46f38f_86351d05-e741-4f1b-8c89-41a5c5693d92.jpg",
+                    "inStock": 1,
+                    "isVeg": 1,
+                    "price": 11600,
+
+                    "variants": {
+                        "variantGroups": [
+                        {
+                            "groupId": "7407848",
+                            "name": "Quantity",
+                            "variations": [
+                            {
+                                "name": "Half",
+                                "default": 1,
+                                "id": "24912996",
+                                "inStock": 1,
+                                "isVeg": 1,
+                                "isEnabled": 1
+                            }
+                            ]
+                        }
+                        ]
+                    }
+                    },
+                    "hideRestaurantDetails": true
+                }
+                }
+            ],          
+            "groupBy": {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+
+                        "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                            "restaurant_id": "293707"
+                        }
+                        },
+
+                        "info": {
+                        "id": "293707",
+                        "name": "Rajesh Food Point",
+
+                        "address": "B-4, SYNDICATE ENCLAVE DABRI MORE MAIN PANKHA ROAD Locality & Area: NEAR WORLD BRAIN HOSPITAL City: NEW DELHI",
+
+                        "aggregatedDiscountInfoV3": {
+                            "header": "30% OFF",
+                            "subHeader": "UPTO ₹70"
+                        },
+
+                        "areaName": "Janakpuri",
+
+                        "availability": {
+                            "opened": true,
+                            "restaurantClosedMeta": {}
+                        },
+
+                        "avgRating": 4.2,
+                        "avgRatingString": "4.2",
+
+                        "badges": {
+                            "imageBadges": [
+                            {
+                                "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                "description": "pureveg"
+                            }
+                            ]
+                        },
+
+                        "cartOrderabilityNudgeBanner": {
+                            "parameters": {},
+                            "presentation": {}
+                        },
+
+                        "city": "4",
+
+                        "cloudinaryImageId": "vyypeexkhmllh7bqtb40",
+
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+
+                        "cuisines": [
+                            "Indian",
+                            "Punjabi",
+                            "North Indian"
+                        ],
+
+                        "feeDetails": {},
+
+                        "locality": "Janakpuri",
+
+                        "slugs": {
+                            "restaurant": "rajesh-food-point-uttam-nagar-uttam-nagar",
+                            "city": "delhi"
+                        },
+
+                        "sla": {
+                            "deliveryTime": 30,
+                            "minDeliveryTime": 25,
+                            "maxDeliveryTime": 30,
+                            "lastMileTravel": 4.4,
+                            "lastMileTravelString": "4.4 km",
+                            "serviceability": "SERVICEABLE",
+                            "rainMode": "RAIN_MODE_LIGHT",
+                            "slaString": "25-30 MINS",
+                            "iconType": "ICON_TYPE_EMPTY"
+                        },
+
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+
+                        "presentation": {}
+                        }
+                    }
+                }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
