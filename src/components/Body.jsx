@@ -25,7 +25,7 @@ function Body() {
     }
   });
 
-  if(unservicable.communication){
+  if(unservicable?.communication){
     return (
       <div className={`flex items-center justify-center flex-col mt-32`}>
         <img className='w-72' src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_476,h_476/portal/m/location_unserviceable.png" alt="" />
