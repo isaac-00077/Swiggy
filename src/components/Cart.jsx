@@ -50,7 +50,7 @@ function Cart() {
       toast.custom(
         (t) => (
           <div
-              className={`pointer-events-auto flex w-[20vw] max-w-lg items-start gap-4 rounded-2xl border border-amber-600/70 bg-[linear-gradient(180deg,#ffffff_0%,#fff7ea_100%)] px-4 py-4 ${
+              className={`pointer-events-auto flex w-[92vw] max-w-lg items-start gap-4 rounded-2xl border border-amber-600/70 bg-[linear-gradient(180deg,#ffffff_0%,#fff7ea_100%)] px-4 py-4 ${
                 t.visible ? 'toast-drop-in' : 'toast-drop-out'
             }`}
             style={{

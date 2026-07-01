@@ -316,7 +316,9 @@ function DetailMenuCard({info, itemCards, card_count, resInfo}){
           <div className='w-[22%] relative h-full mt-2 '>
             <img onClick={() => { setShowDetailCard(true); dispatch(cardToggle(true)); }} className="object-cover rounded-xl w-[156px] h-[144px] flex float-end" src={`https://media-assets.swiggy.com/swiggy/image/upload/${imageId}`} alt="" />
             {/* <button onClick={handleAddToCart} className='bg-white border py-2 px-10 drop-shadow rounded-[0.55rem] text-[#1ba672] absolute left-[1.25rem] lmd:left-[2.45rem] top-[7.5rem]'>ADD</button> */}
-            <AddToCartBtn info={info} resInfo={resInfo}/>
+            <AddToCartBtn info={info} resInfo={resInfo} from={"menu"}/>
+            {console.log("info_menu:", info)}
+            {console.log("resInfo_menu:", resInfo)}
             <p className='text-[#a9aaac] text-[13px] pt-[10.2rem] pl-8 lmd:pl-14'>Customisable</p>
           </div>
         </div>

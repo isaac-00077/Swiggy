@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux'
 import { addToCart,clearCart } from '../utils/cartSlice'
 
-function AddToCartBtn({ info, resInfo }) {
+function AddToCartBtn({ info, resInfo, from }) {
   const [isDiffRes, setIsDiffRes]=useState(false)
   const [isItemAlreadyAdded, setIsItemAlreadyAdded]=useState(false)
   const cartData=useSelector((state) => state.cartSlice.cartItems)
@@ -61,7 +61,7 @@ function AddToCartBtn({ info, resInfo }) {
           </div>
         </div>
       </div>
-      <button onClick={handleAddToCart} className='bg-white border py-2 px-10 drop-shadow rounded-[0.55rem] text-[#1ba672] absolute left-[1.25rem] lmd:left-[2.45rem] top-[7.5rem]'>ADD</button>
+      <button onClick={handleAddToCart} className={`bg-white border py-2 px-10 drop-shadow rounded-[0.55rem] text-[#1ba672] absolute ${ from=="menu" ?"left-[1.3rem]":"left-[2.4rem]"} lmd:left-[2.45rem] top-[7.5rem]`}>ADD</button>
     </>
   )
 }

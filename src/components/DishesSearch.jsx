@@ -78,7 +78,9 @@ function DishesSearch({data:{info,hideRestaurantDetails,restaurant:{info:resInfo
                 <div className='w-[47%] relative h-full mt-2 '>
                     <img onClick={() => { setShowDetailCard(true); dispatch(cardToggle(true)); }} className="object-cover rounded-xl w-[156px] h-[144px] flex float-end" src={`https://media-assets.swiggy.com/swiggy/image/upload/${imageId}`} alt="" />
                     <div onClick={handleSameRes}>
-                        <AddToCartBtn info={info} resInfo={resInfo} />
+                        <AddToCartBtn info={info} resInfo={resInfo} from={"dish"}/>
+                        {console.log("info_dish:", info)}
+                        {console.log("resInfo_dish:", resInfo)}
                     </div>
                     <p className='text-[#a9aaac] text-[13px] pt-[10.2rem] pl-8 lmd:pl-14'>Customisable</p>
                 </div>
