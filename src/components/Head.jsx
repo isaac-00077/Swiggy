@@ -10,7 +10,7 @@ import { loginToggle } from '../utils/toggleSlice'
 import SignInBtn from './SignInBtn'
 
 function Head() {
-  const MAX_LENGTH = 42; 
+  const MAX_LENGTH = 35; 
   const navItems=[
     {
         name:"Swiggy Corporate",
